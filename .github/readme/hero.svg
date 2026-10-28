@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="260" viewBox="0 0 1280 260" role="img" aria-labelledby="t d">
+<title id="t">Incident Response Scripts</title>
+<desc id="d">A terminal panel showing the login monitoring script flagging a possible brute force and the asset inventory script writing its JSON output. Stylised, not real output.</desc>
+<style>.p{animation:p 3s ease-in-out infinite}@keyframes p{50%{opacity:.35}}@media (prefers-reduced-motion: reduce){*{animation:none!important;}}</style>
+<defs><clipPath id="c"><rect width="1280" height="260" rx="24"/></clipPath></defs>
+<g clip-path="url(#c)"><rect width="1280" height="260" fill="#06130E"/><g transform="translate(780 40)" style="font-family:'JetBrains Mono','Cascadia Code','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;font-size:13px"><rect width="430" height="180" rx="10" fill="#03100A" stroke="#34D399" stroke-opacity=".5"/>
+      <text x="16" y="30" fill="#34D399">$ python3 SuspiciousLoginMonitoring.py</text>
+      <text x="16" y="58" fill="#A7F3D0">[*] watching auth log…</text>
+      <text x="16" y="82" fill="#FCA5A5" class="p">[!] 5 failed logins · same source</text>
+      <text x="16" y="106" fill="#FCA5A5">[!] possible brute force detected</text>
+      <text x="16" y="134" fill="#34D399">$ python3 "Asset Inventory Script.py"</text>
+      <text x="16" y="158" fill="#A7F3D0">[+] AssetInventoryOutput.json written</text></g></g>
+<rect x="1" y="1" width="1278" height="258" rx="24" fill="none" stroke="#34D399" stroke-opacity=".35" stroke-width="2"/>
+<text x="56" y="80" style="font-family:'JetBrains Mono','Cascadia Code','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace;font-size:14px;letter-spacing:4px" fill="#34D399">CYB-4863 · TEAM PROJECT</text>
+<text x="52" y="148" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-size:58px;font-weight:800;letter-spacing:-1.5px" fill="#F8FAFC">Incident Response Scripts</text>
+<text x="56" y="194" style="font-family:'Inter','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;font-size:20px" fill="#CBD5E1">Asset inventory and brute-force login detection in Python.</text>
+</svg>
